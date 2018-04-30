@@ -73,7 +73,6 @@ $("#addTrainBtn").on("click", function() {
         next: nextTrain
     }
 
-    console.log(newTrain);
     database.ref().push(newTrain);
 
     $("#trainNameInput").val("");

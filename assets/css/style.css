@@ -1,0 +1,24 @@
+body {
+    background-image: url('../images/trainwallpaper.jpg') 
+}
+
+.jumbotron {
+    background-image: url('../images/black.jpg');
+    font-family: 'Bungee', cursive;
+    font-size: 70px;
+    text-align: center;
+    color: #B8860B;
+}
+
+.row {
+    background-color:#556B2F;
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+    border-style: double;
+    border-width: 2px;
+    border-color: black;
+}
+
+h4 {
+    font-size: 30px;
+}
