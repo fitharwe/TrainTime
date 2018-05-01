@@ -7,7 +7,7 @@ body {
     font-family: 'Bungee', cursive;
     font-size: 70px;
     text-align: center;
-    color: #B8860B;
+    color: #CD853F;
 }
 
 .row {
@@ -19,6 +19,25 @@ body {
     border-color: black;
 }
 
-h4 {
-    font-size: 30px;
+.panel-heading {
+    background-color: black !important;
+    color: white !important;
 }
+
+.panel {
+    border-color: black !important;
+    background-color: 	#CD853F;
+}
+
+.btn {
+    background-color: grey;
+    color: black;
+    border-color: black;
+}
+
+.btn-primary {
+    background: grey; }
+    .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+      background-color: darkgrey !important; }
+    .btn-primary.active {
+      background-color: white !important; }
